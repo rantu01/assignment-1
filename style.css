@@ -1,0 +1,104 @@
+/* ------Font ----------------- */
+
+
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  /* share style  */
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .text-primary{
+      color: #006A50;
+  } 
+  
+  .btn-primary{
+      background-color: #ffffff;
+      color: #006A50;
+      font-size: 15px;
+      font-weight: 600px;
+      padding: 15px 30px;
+      border-radius: 8px;
+      border: solid #006A50 1px;
+      transition: background-color 0.3s, transform 0.3s;
+  }
+
+  
+  .btn-primary:hover {
+      background-color: #006A50;
+      color: #ffffff;
+  }
+
+  .btn-secondary{
+    background-color: #006A50;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.5s, transform 0.5s;
+    
+}
+
+.btn-secondary:hover {
+    background-color: #0e4949;
+    color: #ffffff;
+    border: none;
+}
+  /* -------Nav style---------------- */
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0px 200px;
+      height: 100px;
+  }
+  
+  .nav-title {
+      font-weight: 800;
+      font-size: 32px;
+  }
+  
+  
+
+  /*------------------ banner style------------------ */
+  
+  
+  .banner {
+       display: flex;
+       margin: 0 200px;
+       margin-left: auto;
+       justify-content: space-between;
+       background: #C6E4D6;
+       width: 1280px;
+       height: 560px;
+       padding: 80px 100px;
+       border-radius: 24px;
+       margin: 0 200px;
+  }
+
+  .banner-title{
+    color: #0E0E0E;
+    opacity: 50%;
+    font-size: 24px;
+  }
+  .banner-con {
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 56px;
+    height: 326px;
+    width: 622px;
+  }
+
+  .hero-img{
+    width: 474px;
+    height: 400px;
+  }
