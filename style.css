@@ -14,6 +14,10 @@
     margin: 0;
     padding: 0;
   }
+
+  body{
+    background-color: #F1F1F3;
+  }
   
   .text-primary{
       color: #006A50;
@@ -102,3 +106,207 @@
     width: 474px;
     height: 400px;
   }
+
+  /* -----piller ----------  */
+
+  .piller-container {
+    margin: 80px 200px;
+  }
+  .piller-container>h1{
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .pillercard {
+    display: flex;
+    gap: 24px;
+    padding-top: 32px;
+  }
+
+.piller>img {
+    margin-top: 24px;
+    margin-left: 24px ;
+}
+
+.piller-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-left: 24px ;
+}
+.piller-description{
+    color: #0E0E0E;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-left: 24px ;
+    margin-bottom: 24px;
+
+}
+
+.piller{
+    background-color: #fff;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+
+
+/*  vision part */
+
+.vision-container {
+    margin: 80px 200px;
+}
+
+.vision-card {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.vision-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+.vision-description {
+    font-size: 16px;
+}
+
+.visioncon-1 {
+    padding: 32px 32px;
+    background-color: rgba(57, 159, 243, 0.2);
+    border-radius: 16px;
+    width: 410px;
+    height: 325px;
+}
+
+.visioncon-2 {
+    padding: 32px 32px;
+    background-color: rgba(90, 219, 159, 0.2);
+    border-radius: 16px;
+    width: 410px;
+    height: 325px;
+}
+.visioncon-3 {
+    padding: 32px 32px;
+    background-color: rgba(216, 224, 101, 0.2);
+    border-radius: 16px;
+    width: 410px;
+    height: 325px;
+}
+
+
+.vision-btn-1{
+    background-color: #5490F5;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.5s, transform 0.5s;
+    margin-top: 48px;
+}
+.vision-btn-1:hover{
+    background-color: #035f94;
+}
+.vision-btn-2{
+    background-color: #218114;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.5s, transform 0.5s;
+    margin-top: 48px;
+}
+.vision-btn-2:hover{
+    background-color: #0c5212;
+}
+
+.vision-btn-3{
+    background-color: #8b8d10;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.5s, transform 0.5s;
+    margin-top: 48px;
+}
+.vision-btn-3:hover{
+    background-color: #4a5518;
+}
+
+.v-card-title{
+    margin-top: 25px;
+}
+
+.dr-yunus {
+    background-color: #fff;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 32px;
+    border-radius: 16px;
+    padding: 48px 24px;
+}
+
+.yunus-p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+}
+.yunus-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #0E0E0E;
+    margin-top: 12px;
+}
+
+
+/* news -------------------------------- */
+
+.news-container {
+    margin: 80px 200px;
+}
+.news-container> h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.news-container>p{
+    line-height: 24px;
+    font-size: 16px;
+    color: #0E0E0E;
+}
+
+.news-con {
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    background-color: #fff;
+    border-radius: 24px;
+}
+.time{
+    display: flex;
+    gap: 12px;
+}
+
+.news-btn {
+    background-color: #006A50;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.5s, transform 0.5s;
+    margin-top: 32px;
+}
+
+.news-btn:hover {
+    background-color: #074233;
+}
+.satelite {
+    border-radius: 24px;
+}
